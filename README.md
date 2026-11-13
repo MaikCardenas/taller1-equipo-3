@@ -1,1 +1,2 @@
-# taller1-equipo-3
+<<<<<<< HEAD
+# Equipo N - Los Commiteros
