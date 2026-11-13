@@ -1,2 +1,2 @@
-<<<<<<< HEAD
-# Equipo N - Los Commiteros
+
+# Equipo 3 - Los insanetes
