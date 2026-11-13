@@ -1,2 +1,1 @@
-<<<<<<< HEAD
-# Equipo N - Los Commiteros
+# Equipo 3 - Git Insanetes
