@@ -13,7 +13,7 @@
 ## Integrantes
 - **Michael Steven Cárdenas Ruiz** — [Maik Cárdenas](https://github.com/MaikCardenas)
 - **Sergio Andrés Losada Lavao** — [Elinsanodechecho](https://github.com/sergioandreslosadalavao-oss)
-- **Ángel** — [ANGELMJ](https://github.com/joseangelmejiaperez454-eng)
+- **Jose Angel Mejia Perez** — [ANGELMJ](https://github.com/joseangelmejiaperez454-eng)
 
 ## Cómo clonar el repositorio
 Abre una terminal y ejecuta los siguientes comandos:
