@@ -13,11 +13,11 @@
 ## Integrantes
 - **Michael Steven Cárdenas Ruiz** — [Maik Cárdenas](https://github.com/MaikCardenas)
 - **Sergio Andrés Losada Lavao** — [Elinsanodechecho](https://github.com/sergioandreslosadalavao-oss)
-- **Jose Angel Mejia Perez** — [ANGELMJ](https://github.com/joseangelmejiaperez454-eng)
+- **José Angel Mejia Perez** — [ANGELMJ](https://github.com/joseangelmejiaperez454-eng)
 
 ## Cómo clonar el repositorio
 Abre una terminal y ejecuta los siguientes comandos:
 
-```bash
+```bash:
 git clone [https://github.com/MaikCardenas/taller1-equipo-3.git](https://github.com/MaikCardenas/taller1-equipo-3.git)
 cd taller1-equipo-3
