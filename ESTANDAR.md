@@ -30,43 +30,47 @@ Lenguaje(s) del proyecto formativo: TypeScript, JavaScript, Java (Spring Boot), 
 - **What `README.md` must include:** Project overview, tech stack (React, TypeScript, Globe.gl, Spring Boot, PostgreSQL/PostGIS), team members, setup/run instructions, environment variables, and a link to `ESTANDAR.md`.
 
 ## 4. Estructura de carpetas
+## 4. Folder structure
+
 ```
-proyecto/
-├── docs/            # documentación, diagramas y manuales
-├── src/             # código fuente
-│   ├── controladores/
-│   ├── modelos/
-│   └── vistas/
-├── public/          # archivos accesibles desde el navegador
+project/
+├── docs/            # documentation, diagrams and manuals
+├── src/             # source code
+│   ├── controllers/
+│   ├── models/
+│   └── views/
+├── public/          # files accessible from the browser
 │   ├── css/
 │   ├── js/
 │   └── img/
-├── database/        # scripts SQL (creación de tablas y datos de prueba)
-├── tests/           # pruebas
-├── visitas/         # visitas de otros equipos
+├── database/        # SQL scripts (table creation and test data)
+├── tests/           # tests
+├── visits/          # visits from other teams
 ├── .editorconfig
 ├── ESTANDAR.md
 └── README.md
 ```
 
-Reglas: nombres de carpetas en minúscula y sin tildes; cada carpeta tiene una sola responsabilidad; no se suben contraseñas ni archivos temporales (se usa `.gitignore`).
+Rules: folder names are lowercase, without accents; each folder has a single responsibility; passwords and temporary files are never committed (use `.gitignore`).
 
 ## 5. Git: ramas, commits y pull requests
-**Ramas:** `tipo/descripcion-corta` en minúscula y con guiones.
+## 5. Git: branches, commits and pull requests
 
-| Tipo     | Uso                      |  Ejemplo               |
-|----------|--------------------------|------------------------|
-| feature  | funcionalidad nueva      | feature/login-usuarios |
-| fix      | corrección de errores    | fix/ortografia-readme  | 
-| docs     | documentación            | docs/estandar-git      |
-| chore    | configuración y tareas   | chore/editorconfig     |
+**Branches:** `type/short-description`, lowercase with hyphens.
 
-**Commits:** formato `tipo: descripción en presente`, máximo 72 caracteres. Ejemplo: `fix: corrige validación del formulario`. Si cierra un issue, se agrega `Closes #N`.
+| Type | Use | Example |
+|------|-----|---------|
+| feature | new functionality | feature/user-login |
+| fix | bug fixes | fix/readme-typo |
+| docs | documentation | docs/standard-git |
+| chore | configuration and tasks | chore/editorconfig |
+
+**Commits:** format `type: description in present tense`, maximum 72 characters. Example: `fix: correct form validation`. If it closes an issue, add `Closes #N`.
 
 **Pull requests:**
-- Nunca se trabaja directo en `main`; todo cambio entra por PR.
-- Título igual al commit y `Closes #N` en la descripción.
-- Otro integrante lo revisa y aprueba; nadie fusiona su propio PR.
-- Se resuelven los conflictos antes de fusionar.
+- Never work directly on `main`; every change goes through a PR.
+- Title equal to the commit message and `Closes #N` in the description.
+- Another team member reviews and approves it; nobody merges their own PR.
+- Conflicts are resolved before merging.
 
-**Versiones:** versionamiento semántico MAYOR.MENOR.PARCHE (v1.0.0, v1.0.1).
+**Versions:** semantic versioning MAJOR.MINOR.PATCH (v1.0.0, v1.0.1).
